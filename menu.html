@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Foods | Tyagan Ki Rasoi</title>
+    <meta name="description" content="Browse all foods from Tyagan Ki Rasoi and order each item directly on WhatsApp.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Tyagan Ki Rasoi home">
+        <img src="assets/logo.jpeg" alt="Tyagan Ki Rasoi logo">
+        <span>Tyagan Ki Rasoi</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">All Foods</a>
+        <a href="about.html">About</a>
+        <a href="#platforms">Order</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="menu-hero">
+        <div class="reveal">
+          <p class="eyebrow">Full food page</p>
+          <h1>All Foods</h1>
+          <p class="lead">Search, filter, and order directly on WhatsApp. Every item button opens a ready-made message for that dish.</p>
+        </div>
+        <div class="platform-card reveal" id="platforms">
+          <a class="btn zomato" href="https://zomato.onelink.me/xqzv/03fvwy16" target="_blank" rel="noreferrer">Order on Zomato</a>
+          <a class="btn swiggy" href="https://www.swiggy.com/menu/1321556?source=sharing" target="_blank" rel="noreferrer">Order on Swiggy</a>
+        </div>
+      </section>
+
+      <section class="menu-tools" aria-label="Menu controls">
+        <label class="search-box">
+          <span>Search foods</span>
+          <input id="menuSearch" type="search" placeholder="Search paratha, thali, lassi..." autocomplete="off">
+        </label>
+        <div class="category-tabs" id="categoryTabs" aria-label="Food categories"></div>
+      </section>
+
+      <section class="menu-count">
+        <span id="menuCount">Loading foods...</span>
+      </section>
+
+      <section class="food-grid" id="foodGrid" aria-live="polite"></section>
+    </main>
+
+    <a class="sticky-whatsapp" href="https://wa.me/917988552675?text=Hi%20Tyagan%20Ki%20Rasoi%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noreferrer">WhatsApp Order</a>
+
+    <footer>
+      <div>
+        <strong>Tyagan Ki Rasoi</strong>
+        <p>Owned by Prity. Kitchen: House No. 1687, Sector 23, Sonipat, Haryana.</p>
+      </div>
+      <a href="index.html">Back to Home</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
